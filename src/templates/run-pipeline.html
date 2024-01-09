@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<div class='d-flex align-content-center'>
+  <h1 id='pageTitle' {% if hideTitle %}hidden{% endif %}>{{ App.pageTitle }}</h1>
+</div>
+{% endblock %}
+
+{% block body %}
+
+{% include 'show-view-edit.html' %}
+<h2>{{ 'Ciao %s'|trans|format(App.Users.userData.firstname) }}</h2>
+
+<hr>
+<div class='row'>
+  
+</div>
+
+{% endblock body %}
