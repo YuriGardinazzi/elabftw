@@ -39,6 +39,7 @@ module.exports = (env) => {
         './src/ts/search.ts',
         './src/ts/show.ts',
         './src/ts/sysconfig.ts',
+        './src/ts/run-pipeline.ts',
         'bootstrap/js/src/alert.js',
         'bootstrap/js/src/button.js',
         'bootstrap/js/src/collapse.js',
