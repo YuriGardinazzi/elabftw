@@ -10,6 +10,8 @@
 
 <head>
   <meta http-equiv='Content-type' content='text/html;charset=UTF-8' />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: http://localhost:9090//job/test-elab/build 'unsafe-eval'; style-src 'self' 'unsafe-inline'; script-src 'self' http://localhost:9090/'unsafe-inline' 'unsafe-eval';  media-src *">
+
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <meta name='description' content='Electronic lab notebook - eLabFTW'>
   {% if App.Config.configArr.autologout_time != '0' %}
